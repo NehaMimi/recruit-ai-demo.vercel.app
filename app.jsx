@@ -1,3 +1,19 @@
+'use client';
+
+import React, { useState } from 'react';
+import {
+  Upload,
+  FileText,
+  Users,
+  TrendingUp,
+  CheckCircle,
+  AlertCircle,
+  XCircle,
+  Mail,
+  Calendar,
+} from 'lucide-react';
+
+export default function RecruitAI() {
 import React, { useState } from 'react';
 import { Upload, FileText, Users, TrendingUp, CheckCircle, AlertCircle, XCircle, Mail, Calendar } from 'lucide-react';
 
@@ -498,6 +514,6 @@ export default function RecruitAI() {
     </div>
   );
 }
-
+}
 
 
